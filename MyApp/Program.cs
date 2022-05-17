@@ -14,3 +14,4 @@ string n2 = Console.ReadLine();
 double res = Convert.ToDouble(n1) + Convert.ToDouble(n2);
 
 Console.WriteLine("resultado: " + res);
+Console.WriteLine("resultado: kmasdkmmasdmas");
