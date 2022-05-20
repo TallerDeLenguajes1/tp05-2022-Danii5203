@@ -30,7 +30,11 @@ do
             resultado = multiplicacion(n1, n2);
             break;
         case 4:
-            resultado = division(n1, n2);
+            if(n2 == 0){
+                Console.WriteLine("No puede tener 0 en el denominador!!!");
+            }else{
+                resultado = division(n1, n2);
+            }
             break;
         default:
             Console.WriteLine("Ingreso un valor incorrecto!");
